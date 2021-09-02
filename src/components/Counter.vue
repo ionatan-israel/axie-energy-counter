@@ -63,10 +63,10 @@ export default {
 	methods: {
 		handleShortcuts() {
 			const keycodeMappins = {
-				65: this.decrement,
-				68: this.increment,
-				82: this.reset,
-				70: this.nextRound
+				37: this.decrement,
+				39: this.increment,
+				32: this.reset,
+				38: this.nextRound
 			}
 
 			window.addEventListener('keydown', (e) => {

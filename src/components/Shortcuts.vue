@@ -35,19 +35,19 @@ export default {
 		return {
 			shortcuts: [
 				{
-					letter: 'A',
+					letter: '<=',
 					label: 'Decrement energy'
 				},
 				{
-					letter: 'D',
+					letter: '=>',
 					label: 'Increment energy'
 				},
 				{
-					letter: 'F',
+					letter: 'up',
 					label: 'Next round'
 				},
 				{
-					letter: 'R',
+					letter: 'bar',
 					label: 'Reset energy'
 				},
 			]
